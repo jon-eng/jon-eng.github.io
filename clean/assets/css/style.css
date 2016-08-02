@@ -230,7 +230,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .pfblock {
-	padding: 120px 0 100px;
+	padding: 70px 0 70px;
 }
 
 .pfblock-gray {
@@ -343,7 +343,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(../images/site-bg.png);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -379,6 +379,7 @@ textarea.form-control {
 		 -o-transform: translate(0%, -50%);
 			transform: translate(0%, -50%);
 	padding: 0 15px;
+
 }
 
 .intro h1{
@@ -552,9 +553,7 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-brand {
-	font-weight: 700;
-	font-size: 22px;
-    font-family: Lobster, cursive;
+	font-size: 24px;
 }
 
 .navbar-custom .dropdown-menu {
