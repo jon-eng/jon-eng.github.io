@@ -753,10 +753,11 @@ em{
 	position: relative;
 	clear: both;
 	margin: 0 auto;
-	padding: 1em 0 4em;
+/*	padding: 1em 0 4em;*/
 	max-width: 100%;
 	list-style: none;
 	text-align: center;
+	overflow:hidden;
 }
 
 .grid h2{
@@ -1008,6 +1009,21 @@ figure.effect-bubba:hover p {
 }
 
 /*************/
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.grid img{
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.grid:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 .portfolio > div {
   padding: 0 !important;
